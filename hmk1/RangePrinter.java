@@ -7,9 +7,10 @@ public class RangePrinter {
         int b = sc.nextInt();
 
         for (int i = a + 1; i < b; i++) {
-            System.out.println(i);
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
         }
     }
 }
-
 

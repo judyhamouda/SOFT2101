@@ -1,15 +1,23 @@
 STEP a:
 git config --global user.name "Judy Hamoudeh"
 git config --global user.email "judyhammoudeh@gmail.com"
+git config --global user.name "Asem Khaled"
+git config --global user.email "23soft1001@isik.edu.tr"
 git config --global core.editor nano
 git config --list
 
 STEP b:
 Command:
-ls ..
+ls -a
 
 Output:
-SOFT2101
+.
+..
+.git
+hmk1
+hwk4
+.gitignore
+README.md
 
 Command:
 ls .git
@@ -43,7 +51,7 @@ Files in hmk1 on feature-1 branch:
 RangePrinter.java
 
 Files in hmk1 on main branch:
-No files present
+RangePrinter.java
 
 STEP i:
 Merged feature-2 into main using:
@@ -72,7 +80,7 @@ The log shows commits from feature-1, feature-2, and feature-3,
 confirming all branches were merged successfully into main.
 
 STEP l:
-Cleaned up feature branches after merging.
+Feature branches after merging.
 
 Commands used:
 git branch -d feature-1

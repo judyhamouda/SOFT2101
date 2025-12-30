@@ -1,0 +1,108 @@
+STEP a:
+git config --global user.name "Judy Hamoudeh"
+git config --global user.email "judyhammoudeh@gmail.com"
+git config --global core.editor nano
+git config --list
+
+STEP b:
+Command:
+ls ..
+
+Output:
+SOFT2101
+
+Command:
+ls .git
+
+Output:
+HEAD
+branches
+config
+description
+hooks
+info
+logs
+objects
+refs
+
+STEP c:
+[Department of Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+STEP d:
+*.class
+*.log
+.idea/
+target/
+
+STEP f:
+Commits on feature-1 branch:
+fe4daee satisfying requirement one
+
+Files in hmk1 on feature-1 branch:
+RangePrinter.java
+
+Files in hmk1 on main branch:
+No files present
+
+STEP i:
+Merged feature-2 into main using:
+git checkout main
+git merge feature-2
+git push
+
+The merge was successful and changes from feature-2 are now in main.
+
+STEP j:
+Merged feature-3 into main using:
+git checkout main
+git merge feature-3
+
+git push
+
+The final program prints even numbers between two inputs.
+
+STEP k:
+Used git log to verify commit history and merges.
+
+Command:
+git log --oneline --graph --all
+
+The log shows commits from feature-1, feature-2, and feature-3,
+confirming all branches were merged successfully into main.
+
+STEP l:
+Cleaned up feature branches after merging.
+
+Commands used:
+git branch -d feature-1
+git branch -d feature-2
+git branch -d feature-3
+git push origin --delete feature-1
+git push origin --delete feature-2
+git push origin --delete feature-3
+
+Verified that only the main branch remains.
+
+STEP m:
+Part 2 is fully completed.
+
+All feature branches were created, merged, and deleted correctly.
+Merge conflicts were resolved.
+The final program was tested and works as required.
+The repository is clean and ready for submission.
+
+STEP n:
+Final verification completed.
+
+The repository contains only the main branch.
+All feature branches were merged and deleted.
+All requirements for Part 2 have been satisfied.
+The project is ready for grading and submission.
+
+STEP o:
+This concludes Part 2 of the assignment.
+
+All tasks were completed successfully according to the requirements.
+No further changes are required.
+

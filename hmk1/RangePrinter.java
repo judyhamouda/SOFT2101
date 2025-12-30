@@ -6,6 +6,7 @@ public class RangePrinter {
 
 
         for (int i = a + 1; i < b; i++) {
+<<<<<<< HEAD
             if (i % 2 == 0) {
 
         System.out.print("Enter first number: ");
@@ -26,6 +27,13 @@ public class RangePrinter {
         }
 
         input.close();
+=======
+    if (i % 2 != 0) {
+        System.out.println(i);
+    }
+}
+
+>>>>>>> feature-2
     }
 }
 

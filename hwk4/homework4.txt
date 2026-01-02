@@ -1,8 +1,13 @@
 STEP a:
+Group Members:
+Name: Judy Hamoudeh
+Email: judyhammoudeh@gmail.com
+
+Name: Asem Khaled
+Email: 23soft1001@isik.edu.tr
+
 git config --global user.name "Judy Hamoudeh"
 git config --global user.email "judyhammoudeh@gmail.com"
-git config --global user.name "Asem Khaled"
-git config --global user.email "23soft1001@isik.edu.tr"
 git config --global core.editor nano
 git config --list
 
